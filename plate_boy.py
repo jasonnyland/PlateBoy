@@ -14,7 +14,7 @@ def get_target():
 def get_arrangement(target, percent):
     adj_target = target * (percent / 100)
     remainder = adj_target - bar_weight
-    plate_pairs = [0, 0, 0, 0, 0, 0]
+    plate_pairs = [0] * len(plate_sizes) # make a list of zeroes to count plate quantities on
     for index, amt in enumerate(plate_sizes):
         while (remainder // (2 * amt)) > 0:  # while you can still add 2 plates without going below zero
             plate_pairs[index] += 1  # add plates to the pair counter
