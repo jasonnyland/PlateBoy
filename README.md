@@ -1,5 +1,7 @@
 # PlateBoy
-### Calculator for Weightlifting
+### Calculator for Weightlifting Plates
+
+<img src="https://github.com/jnyl42/PlateBoy/blob/master/plates.jpg?raw=true">
 
 PlateBoy calculates assorted plate arrangements for use in weightlifting.
 
